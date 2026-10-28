@@ -3,7 +3,9 @@
 Homebrew casks for my macOS apps.
 
 ```bash
-brew install --cask skriptoff/tap/ghbdtn
+brew tap skriptoff/tap
+brew trust --cask skriptoff/tap/ghbdtn   # Homebrew 7+ asks to trust third-party casks
+brew install --cask ghbdtn
 ```
 
 | Cask | App |

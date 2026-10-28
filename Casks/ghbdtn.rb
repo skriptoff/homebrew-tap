@@ -4,10 +4,10 @@ cask "ghbdtn" do
 
   url "https://github.com/skriptoff/Ghbdtn/releases/download/v#{version}/Ghbdtn-#{version}.dmg"
   name "Ghbdtn"
-  desc "Fix text typed in the wrong keyboard layout (EN ↔ RU) with ⌥⌘"
+  desc "Fix text typed in the wrong keyboard layout between English and Russian"
   homepage "https://github.com/skriptoff/Ghbdtn"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Ghbdtn.app"
 
